@@ -43,6 +43,12 @@
 [Bb]uild-*/
 cmake-build-*/
 
+# VS Code directories
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt

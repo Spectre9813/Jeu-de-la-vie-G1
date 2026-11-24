@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Jeu de la vie",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/jeu_de_la_vie",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "preLaunchTask": "build",
+      "MIMode": "gdb",
+      "windows": {
+        "program": "${workspaceFolder}/build/jeu_de_la_vie.exe"
+      },
+      "osx": {
+        "MIMode": "lldb"
+      }
+    }
+  ]
+}
